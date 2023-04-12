@@ -2,9 +2,14 @@ const express = require("express");
 const app = express();
 
 require("dotenv").config();
+require("./db");
 
-const PORT = process.env.PORT || PORT;
+const PORT = process.env.PORT || 3000;
+
+const pictureRouter = require("./routes/picture");
+
+app.use("/pictures", pictureRouter);
 
 app.listen(PORT, () => {
-	console.log(`Servidor estárodando na porta ${PORT}`);
+	console.log(`Servidor está rodando na porta ${PORT}`);
 });
