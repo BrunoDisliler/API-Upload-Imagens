@@ -1,4 +1,4 @@
-# Neste vídeo, você aprenderá a desenvolver uma API de upload de imagens completa com Node.js, MongoDB e as bibliotecas Mongoose, Dotenv e Multer.
+# Neste vídeo, irei desenvolver uma API de upload de imagens completa com Node.js, MongoDB e as bibliotecas Mongoose, Dotenv e Multer.
 
 ## Você verá como criar uma estrutura de banco de dados escalável e segura com Mongoose, como lidar com imagens no Node.js com a biblioteca Multer e como utilizar o Dotenv para gerenciar suas variáveis de ambiente.
 
